@@ -39,7 +39,7 @@
   --bs-dark: #212529;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-gradient: linear-gradient(180deg, rgba(124,81,161,1) 0%, rgba(96,96,96,1) 31%, rgba(127,82,50,1) 52%);
 }
 
 *,
@@ -11029,7 +11029,7 @@ textarea.form-control-lg {
 .portfolio-box {
   position: relative;
   width: 100%;
-  height: 18.5rem;
+  height: auto;
   overflow: hidden;
   margin-bottom: 1.2rem;
   border-top: 0.5rem solid #c685f7;
