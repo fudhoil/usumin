@@ -23,6 +23,25 @@
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <!-- Template Main CSS File -->
     <link href="assets/vendor/style.css" rel="stylesheet">
+    <style>
+      body, html {
+        height: 100%;
+      }
+      
+      .parallax {
+        /* The image used */
+        background-image: url('assets/img/hero-bg2.jpg');
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      </style>
 
 </head>
 <body>
@@ -56,20 +75,12 @@
     </div>
 </nav>
 
-  <div class="container-fluid">
-    <div class="row bg-gradient" style="height:70vh;">
-      <div class="col-fluid">
-        <img class="img-fluid" style="filter: brightness(50%); position: fixed;" src="assets/img/hero-bg2.jpg"> 
-      </div>
-      <div class="col">
-        <div class="text-light display-3 fw-bold" style="position: sticky;">about Us</div> 
-      </div>
-    </div>    
-  </div>
+<div class="parallax"></div>
 <!-- //////////////////////////////////////////////////////////////////////////////////////////////
                          START SECTION 4 - THE SERVICES  
 ///////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section id="services" class="services bg-white">
+<section id="services" class="services bg-white">  
+</div>
   <div class="container">
     <div class="row mt-1 pt-5 bg-white">
       <h2 class="display-7"><em>Welcome to Usumin</em></h2>
@@ -92,7 +103,7 @@
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////
                            START SECTION 9 - THE FOOTER  
 ///////////////////////////////////////////////////////////////////////////////////////////////-->
-<footer class="footer" style="position: absolute; width: 100%;">
+<footer class="footer">
     <div class="container-fluid">
       <div class="row">
         <!-- CONTENT FOR THE MOBILE NUMBER  -->

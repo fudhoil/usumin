@@ -11018,16 +11018,6 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
-#parallax {
-	height: 100%;
-	opacity: 80%;
-    background-image: url("images/portfolio/portfolio-1.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .portfolio-box {
   position: relative;
   width: 100%;
