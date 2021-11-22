@@ -31,33 +31,53 @@
         filter: brightness(50%);
         opacity: 90%;
         /* Full height */
-        height: 70%;
+        height: 100%;
     
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
-        background-position: center -300px;
+        background-position: center -750px;
         background-repeat: no-repeat;
         background-size: cover;
       }
       @media only screen and (max-width: 991px){
       /* CSS that should be displayed if width is equal to or less than 991px goes here */
-      body, html {
-        height: 60%;
-      } 
-      .parallax {
-        /* The image used */
-        background-image: url('assets/img/hero-bg2.jpg');
-        filter: brightness(50%);
-        opacity: 90%;
-        /* Full height */
-        height: 70%;
-    
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: 0px -90px;
-        background-repeat: no-repeat;
-        background-size: contain;
-       }
+        body, html {
+          height: 60%;
+        } 
+        .parallax {
+          /* The image used */
+          background-image: url('assets/img/hero-bg2.jpg');
+          filter: brightness(50%);
+          opacity: 90%;
+          /* Full height */
+          height: 80%;
+      
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: 0px -350px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
+      @media only screen and (max-width: 640px){
+      /* CSS that should be displayed if width is equal to or less than 991px goes here */
+        body, html {
+          height: 60%;
+        } 
+        .parallax {
+          /* The image used */
+          background-image: url('assets/img/hero-bg2.jpg');
+          filter: brightness(50%);
+          opacity: 90%;
+          /* Full height */
+          height: 90%;
+      
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: 0px -120px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
       }
       </style>
 </head>
