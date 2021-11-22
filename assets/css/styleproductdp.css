@@ -65,7 +65,7 @@
   }
   .img {
     pointer-events: none;
-    filter: grayscale(50%);
+    filter: grayscale(100%);
     position: relative;
     transform: translateY(20px) scale(1.15);
     transform-origin: 50% bottom;
