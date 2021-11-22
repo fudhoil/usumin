@@ -63,6 +63,14 @@
        }
       }
       
+      .signTODO {
+        align-items: center;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 70px;
+        justify-content: center;
+      }
       /* PRODUCT DISPLAY */
       @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
       .productDP {
@@ -122,6 +130,7 @@
       }
       .img {
         pointer-events: none;
+        filter: grayscale(50%);
         position: relative;
         transform: translateY(20px) scale(1.15);
         transform-origin: 50% bottom;
@@ -129,6 +138,7 @@
       }
       .container1:hover .img {
         transform: translateY(0) scale(1.2);
+        filter: grayscale(0%);
       }
       .img1 {
         left: -160px;
@@ -225,6 +235,9 @@ yang diolah dari bahan bahan terbaik dan buah alpukat yang segar, namun tetap me
 <!-- //////////////////////////////////////////////////////////////////////////////////////////////
                          START SECTION 11 - PRODUCT DISPLAY  
 ///////////////////////////////////////////////////////////////////////////////////////////////////-->
+<div class="signTODO">
+  TOUCH TO SEE!
+</div>
 <div class="productDP">
   <div class="product-box">
     <div class="container1">
