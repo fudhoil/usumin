@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+.carousel{
+    background-color: black;
+}
+.carousel-cell {
+    width: 66%;
+    height: 200px;
+  }
+  
+.carousel-cell img {
+    display: block;
+    height: auto;
+    position: absolute;
+    background-size: contain;
+}
