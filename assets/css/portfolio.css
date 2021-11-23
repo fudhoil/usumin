@@ -1,15 +1,17 @@
-* { box-sizing: border-box; }
-.carousel{
-    background-color: black;
-}
-.carousel-cell {
-    width: 66%;
+.carousel-image {
+    display: block;
     height: 200px;
+    /* set min-width,
+       allow images to determine cell width */
+    min-width: 150px;
+    max-width: 100%;
+    margin-right: 10px;
+    /* vertically center */
+    top: 50%;
+    transform: translateY(-50%)
   }
   
-.carousel-cell img {
-    display: block;
+  .carousel.is-fullscreen .carousel-image {
     height: auto;
-    position: absolute;
-    background-size: contain;
-}
+    max-height: 100%;
+  }
