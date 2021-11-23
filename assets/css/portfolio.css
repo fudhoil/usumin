@@ -1,17 +1,18 @@
-.carousel-image {
-    display: block;
-    height: 200px;
-    /* set min-width,
-       allow images to determine cell width */
-    min-width: 150px;
-    max-width: 100%;
-    margin-right: 10px;
-    /* vertically center */
-    top: 50%;
-    transform: translateY(-50%)
+#portfolio-placeholder {
+    overflow: hidden;
+    position: relative;
+}
+.swiper {
+    display: flex;
+    height: 100%;
+    padding: 10px 10px 70px 10px;
   }
-  
-  .carousel.is-fullscreen .carousel-image {
-    height: auto;
-    max-height: 100%;
+
+  .swiper-slide {
+    display: grid;
+    padding: 10px 8px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px #888888;
+    margin: 0px 10px 10px 0px;
+    
   }
