@@ -32,7 +32,7 @@
   flex-direction: column;
   transition: 0.5s;
   filter: grayscale(100%);
-  filter: blur(2px);
+  /* filter: blur(1px); */
 }
 
 #card-container .card:hover .content {
@@ -147,6 +147,7 @@ html, body {
     display: block;
     width: 100%;
     height: auto;
+    filter: grayscale(100%);
   }
   .glassBox__title {
     text-align: center;
@@ -175,4 +176,5 @@ html, body {
     transform: translate(-20px, -40px) rotate(-15deg) scale(1.4);
     -webkit-filter: drop-shadow(5px 5px 5px #4d4c4c);
     filter: drop-shadow(0px 8px 5px #4d4c4c);
+    filter: grayscale(0%);
   }
