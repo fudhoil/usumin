@@ -31,7 +31,8 @@
   align-items: center;
   flex-direction: column;
   transition: 0.5s;
-  filter: grayscale(90%);
+  filter: grayscale(100%);
+  filter: blur(10px);
 }
 
 #card-container .card:hover .content {
