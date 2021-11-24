@@ -25,3 +25,8 @@ $.get("assets/html/testimonial.html", function(data){
 $.get("assets/html/companies-banner.html", function(data){
     $("#companies-banner-placeholder").replaceWith(data);
 });
+
+
+$.get("assets/html/card.html", function(data){
+    $("#card-placeholder").replaceWith(data);
+});
