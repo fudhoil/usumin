@@ -173,4 +173,6 @@ html, body {
   }
   .glassBox:hover .glassBox__imgBox img {
     transform: translate(-20px, -40px) rotate(-15deg) scale(1.4);
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+    filter: drop-shadow(5px 5px 5px #4d4c4c);
   }
