@@ -1,0 +1,18 @@
+<script>
+$.getJSON('http://www.geoplugin.net/json.gp', function(data) {
+  console.log(JSON.stringify(data, null, 2));
+});
+
+function export2txt() {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(originalData, null, 2)], {
+    type: "text/plain"
+  }));
+  a.setAttribute("download", "data.txt");
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+</script>
+
+<button onclick="export2txt()">Export data to local txt file</button>
