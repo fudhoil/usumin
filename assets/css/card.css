@@ -151,11 +151,11 @@ html, body {
     filter: grayscale(100%);
   }
   .container1 {
-    height: 312px;
+    height: 300px;
     -webkit-tap-highlight-color: transparent;
     transform: scale(0.48);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 400px;
+    width: 200px;
   }
   /* .container1:hover {
     transform: scale(0.54);
@@ -174,7 +174,7 @@ html, body {
     position: absolute;
     width: 100%;
     height: auto;
-    left: -15px;
+    left: -115px;
     top: -90px;
     width: 500px;
   }
@@ -183,7 +183,7 @@ html, body {
     position: absolute;
     width: 100%;
     height: auto;
-    left: 70px;
+    left: -30px;
     top: -50px;
     width: 500px;
   }
@@ -192,7 +192,7 @@ html, body {
     position: absolute;
     width: 100%;
     height: auto;
-    left: -120px;
+    left: -220px;
     top: -50px;
     width: 500px;
   }
