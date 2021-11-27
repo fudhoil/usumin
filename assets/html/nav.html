@@ -4,16 +4,17 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
+  <link rel="stylesheet" href="./assets/css/nav.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark menu navbar-default navbar-static-top shadow">
+ <nav class="navbar navbar-expand-lg navbar-dark menu navbar-default navbar-static-top shadow">
     <div class="container bg-primary">
       <div class="box" style="width: 50%;">
         <a class="navbar-brand" href="https://usuminindonesia.com">
           <img width="20%" src="images/logo.png" alt="logo image">
         </a>
       </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -24,10 +25,10 @@
           <li class="nav-item"><a class="nav-link" href="partnership.html">Partnership</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
         </ul>
-      </div>
+      </div> -->
     </div>
 </nav>
-<script>
+<!-- <script>
 function setActive() {
   linkObj = document.getElementById('navbarNav').getElementsByTagName('a');
   for(i=0;i<linkObj.length;i++) { 
@@ -36,7 +37,19 @@ function setActive() {
     }
   }
 }
-window.onload = setActive;
+window.onload = setActive;  -->
+
+<input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+<label for="menu-icon"></label>
+<nav class="nav"> 		
+  <ul class="pt-5">
+    <li><a href="index.html">Welcome</a></li>
+    <li><a href="ourmenu.html">Our Menu</a></li>
+    <li><a href="career.html">Career</a></li>
+    <li><a href="partnership.html">Partnership</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
 </script>
 </body>
 </html>
