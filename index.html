@@ -78,7 +78,13 @@
     .companies::after{
       position: absolute;
     }
+    /* #img-banner {
 
+    } */
+    #usumin {
+      -webkit-text-stroke: 3px #e2100e;
+      font-weight: 800;
+    }
 
     </style>
 </head>
@@ -97,7 +103,7 @@
       <!-- START THE CONTENT FOR THE INTRO  -->
       <div class="col-md-6 text-start">
         <h1 class="display-5">
-          <span id="usumin" class="display-2--intro">USUMIN</span>
+          <span id="usumin" class="display-2">USUMIN</span>
           <span class="display-2--description lh-base">
             Indonesia's No. 1 Authentic Alpukat Kocok
           </span>
@@ -107,7 +113,7 @@
       <!-- START THE CONTENT FOR THE VIDEO -->
       <div class="col-md-6 intros text-end">
         <div class="video-box">
-          <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
+          <img id="img-banner" src="images/arts/product2-noBG.png" alt="video illutration" class="img-fluid">
           <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
             <span>
               <i class="fas fa-play-circle"></i>
@@ -154,8 +160,11 @@
   <div id="productdp-placeholder"></div>
 
     <!-- START THE COMPANIES CONTENT  -->
-    <div id="companies" class="container-fluid bg-primary mt-5">
-      <div class="row justify-content-center p-5">
+    <div id="companies" class="container-fluid mt-5">
+      <div class="row text-center justify-content-center p-5">
+        <div class="col-12">
+          <h1 class="display-3 fw-bold text-uppercase pt-5" style="color: #d3d3d3;">Grow with Us</h1>
+        </div>
         <div class="col-10 col-sm-4 col-md-4 col-lg-4 text-center p-3">
           <div class="companies__logo-box-auto">
             <img width="150" height="150" src="images/companies/company-1.png" alt="Company 1 logo" title="company 1 Logo" class="img-fluid">
