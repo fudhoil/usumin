@@ -17,8 +17,23 @@
     <meta name="msapplication-TileImage" content="https://usuminindonesia.com/wp-content/uploads/2021/10/cropped-usumin-logo-e1612875035272-2-270x270.png">
     <script src="assets/js/component.js"></script>
 
+    <style>
+      .parallax {
+        /* The image used */
+        background-image: url('assets/img/hero-bg2.jpg');
+        /* Full height */
+        height: 100%;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
 </head>
 <body>
+<div class="parallax">
 <!-- ////////////////////////////////////////////////////////////////////////////////////////
                                START SECTION 1 - THE NAVBAR SECTION  
 /////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -27,18 +42,13 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
               START SECTION 8 - GET STARTED  
 /////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section id="contact" class="get-started">
+
     <div class="container">
-      <div class="row text-center">
-        <div class="heading-line mt-4"></div>
-        <p class="lh-lg">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
-        </p>
-      </div>
+     
   
       <!-- START THE CTA CONTENT  -->
       <div class="row text-white">
-        <div class="col-12 col-lg-6 bg-primary shadow p-3">
+        <div class="col-12 col-lg-6 bg-primary shadow p-3 mt-5 rounded-top">
           <div class="cta-info w-100">
             <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
             <p class="lh-lg">
@@ -52,7 +62,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-lg-6 bg-white shadow p-3">
+        <div class="col-12 col-lg-6 shadow p-3">
           <div class="form w-100 pb-2">
             <h4 class="display-3--title mb-5">Send us a Message</h4>
             <form action="#" class="row">
@@ -93,8 +103,7 @@
         </div>
       </div>
     </div>
-  </section>
-  
+</div>
   <!-- ///////////////////////////////////////////////////////////////////////////////////////////
                            START SECTION 9 - THE FOOTER  
 ///////////////////////////////////////////////////////////////////////////////////////////////-->
