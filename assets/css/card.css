@@ -1,6 +1,3 @@
 .img1, .img2, .img3 {
   max-height: 500px;
 }
-body {
-  overflow-y: hidden;
-}
