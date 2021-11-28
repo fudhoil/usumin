@@ -17,8 +17,23 @@
     <meta name="msapplication-TileImage" content="https://usuminindonesia.com/wp-content/uploads/2021/10/cropped-usumin-logo-e1612875035272-2-270x270.png">
     <script src="assets/js/component.js"></script>
 
+    <style>
+      .parallax {
+        /* The image used */
+        background-image: url('assets/img/hero-bg2.jpg');
+        /* Full height */
+        height: 100%;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
 </head>
 <body>
+<div class="parallax">
 <!-- ////////////////////////////////////////////////////////////////////////////////////////
                                START SECTION 1 - THE NAVBAR SECTION  
 /////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -38,7 +53,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
-        <div class="services__content">
+        <div class="services__content bg-white rounded-top">
           <div class="icon d-block fas fa-handshake"></div>
           <h3 class="display-3--title mt-1">Be Part of Our Team</h3>
           <p class="lh-lg">
@@ -46,9 +61,6 @@
              doloremque autem quibusdam blanditiis harum alias hic accusantium 
              maxime atque ratione magni repellat?
           </p>
-          <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
-            <span><i class="fas fa-arrow-right"></i></span>
-          </button>
         </div>
       </div>
     </div>
@@ -56,6 +68,7 @@
 </section>
 
 <div id="career-placeholder"></div>
+</div>
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////
                            START SECTION 9 - THE FOOTER  
 ///////////////////////////////////////////////////////////////////////////////////////////////-->
