@@ -61,7 +61,19 @@
     }
     .parallax {
         /* The image used */
-        background-image: url('assets/img/hero-bg2.jpg');
+        background-image: url('images/arts/product2.jpeg');
+        /* Full height */
+        height: 100%;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .parallax2 {
+        /* The image used */
+        background-image: url('images/arts/parallax2.jpg');
         /* Full height */
         height: 100%;
     
@@ -86,7 +98,7 @@
     </style>
 </head>
 <body>
-  <div class="parallax">
+  <div class="parallax2">
 <!-- ////////////////////////////////////////////////////////////////////////////////////////
                                START SECTION 1 - THE NAVBAR SECTION  
 /////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -137,7 +149,13 @@
       </div>
     </div>
   </div>
+</div>
+<div class="parallax">
 <section id="companies" class="companies pb-0">
+  <div class="row text-center">
+    <h1 class="display-3 fw-bold text-uppercase pt-5" style="color: #d3d3d3;">Touch to see</h1>
+  </div>
+
   <script src="assets/js/productdp.js"></script>
   <div id="productdp-container" class="container" data-tilt="">
     <div id="productdp-placeholder"></div>
