@@ -19,7 +19,6 @@
   }
   .slider {
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-    background-color: #7c51a1;
     overflow: hidden;
     padding: 20px;
     position: relative;
