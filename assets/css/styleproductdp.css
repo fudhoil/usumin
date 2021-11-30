@@ -23,8 +23,8 @@
   .product-container {
     display: flex;
     font-family: "Merriweather", serif;
-    border-radius: 10px;
-    background-color: aliceblue;
+    border-radius: 5px;
+    background-color: #fafafa;
     flex-wrap: wrap;
     padding-bottom: 20px;
     justify-content: center;
@@ -35,7 +35,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 280px;
   }
   .container1 {
     border-radius: 50%;
@@ -96,7 +95,7 @@
     width: 160px;
   }
   .name {
-    color: #7c51a1;
+    color: black;
     font-family: 'Sora', sans-serif;
     border-radius: 10px;
     font-size: 36px;
