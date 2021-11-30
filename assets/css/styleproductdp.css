@@ -24,6 +24,7 @@
     display: flex;
     font-family: "Merriweather", serif;
     border-radius: 10px;
+    background-color: aliceblue;
     flex-wrap: wrap;
     padding-bottom: 20px;
     justify-content: center;
